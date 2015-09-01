@@ -5,4 +5,4 @@ RUN mkdir -p /data/http && \
 	cd /data/http && \
 	wget -O - "https://github.com/YOURLS/YOURLS/archive/1.7.tar.gz" | tar --strip-components=1 -x -z 
 
-ADD data /data
+#ADD data /data
